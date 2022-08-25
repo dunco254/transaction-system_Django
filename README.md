@@ -1,35 +1,68 @@
-# Diabetes-Predication
+<h1 align="center">Transaction Management System </h1>
+<p>
+  <img src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
+  <a href="https://github.com/kefranabg/readme-md-generator/graphs/commit-activity">
+    <img alt="Maintenance" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" target="_blank" />
+  </a>
+  <a href="https://github.com/chaitanyarahalkar/transaction-system/blob/master/LICENSE">
+    <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" target="_blank" />
+  </a>
+  <a href="https://twitter.com/chairahalkar">
+    <img alt="Twitter: chairahalkar" src="https://img.shields.io/twitter/follow/chairahalkar.svg?style=social" target="_blank" />
+  </a>
+</p>
 
-<img src="https://media.gettyimages.com/videos/closeup-woman-checking-blood-sugar-with-diabetes-using-a-blood-meter-video-id1216966362?s=640x640">
+> A payment system that can be integrated with E-Commerce site. Featured with a secured REST API to seamlessly use it. 
 
-Machine Learning to predict diabetes
+### 🏠 [Homepage](https://github.com/chaitanyarahalkar/transaction-system)
 
-The objective of the dataset is to diagnostically predict if a patient has diabetes, established on definite diagnostic quantities incorporated in the dataset.
+## Prerequisites
 
-Content
-The datasets consists of several medical predictor variables and one target variable, Outcome. Predictor variables includes the number of pregnancies the patient has had, their BMI, insulin level, age, and so on.
 
-Dependencies include python libraries like 
-```
-sklearn
-matplotlib
-pandas
-seaborn
-```
+## Install
 
-Classification models used
-```
-Decision Trees
-Ramdom forest
-Logistic Regression
-SVM
-Niave bayes
-Logistic Regression
-Ensemble Modeling
+```sh
+python install -r requirements.txt
 ```
 
-PS: Please do not forget to drop a star if you like it!
+## Configure the Settings
 
-Data source: Kaggle
+Setup SMTP Servers. By default the server is set to smtp.gmail.com. Add the environment variables EMAIL_HOST_USER, EMAIL_HOST_PASSWORD and SECRET_KEY to the .bashrc. Django uses a secret key (the SECRET_KEY environment variable) as a seed value to generate session identifiers. A secure random secret key can be generated using [this](https://djecrety.ir/). 
+Set the environment variables by editing the .bashrc file on Linux / MacOS by running - 
 
-<img src="https://lh3.googleusercontent.com/proxy/wwj3vXW3Pv2DDVRCjY4D1H6eGccQdJJeMzwsCHIKVFTHl5mIwpI7cnE-g9GX3rDFEc-j-66q8Jpfhb1Yk1sHK56B4PkbqmYxmxn5a5Cv_r90i_pXMjaibtb7hKmk">
+```sh
+
+echo "export SECRET_KEY=the_chosen_key" >> ~/.bashrc
+echo "export EMAIL_HOST_USER=john.doe@example.com" >> ~/.bashrc
+echo "export EMAIL_HOST_PASSWORD=foobar" >> ~/.bashrc
+```
+
+If a Gmail account is to be used for sending transaction emails and OTP notifications, the less-secure-apps switch needs to be turned on for the account. This can be enabled [here](https://myaccount.google.com/lesssecureapps).
+
+## Usage
+
+```sh
+python manage.py runserver
+```
+
+## Author
+
+👤 **Chaitanya Rahalkar**
+
+* Twitter: [@chairahalkar](https://twitter.com/chairahalkar)
+* Github: [@chaitanyarahalkar](https://github.com/chaitanyarahalkar)
+
+## 🤝 Contributing
+
+Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/chaitanyarahalkar/transaction-system/issues).
+
+## Show your support
+
+Give a ⭐️ if this project helped you!
+
+## 📝 License
+
+Copyright © 2019 [Chaitanya Rahalkar](https://github.com/chaitanyarahalkar).<br />
+This project is [MIT](https://github.com/chaitanyarahalkar/transaction-system/blob/master/LICENSE) licensed.
+
+***
