@@ -4,7 +4,7 @@
   <a href="https://github.com/kefranabg/readme-md-generator/graphs/commit-activity">
     <img alt="Maintenance" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" target="_blank" />
   </a>
-  <a href="https://github.com/chaitanyarahalkar/transaction-system/blob/master/LICENSE">
+  <a href="https://github.com/dunco254">
     <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" target="_blank" />
   </a>
   <a href="https://twitter.com/chairahalkar">
