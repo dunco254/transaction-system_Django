@@ -6,15 +6,12 @@
   </a>
   <a href="https://github.com/dunco254">
     <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" target="_blank" />
-  </a>
-  <a href="https://twitter.com/chairahalkar">
-    <img alt="Twitter: chairahalkar" src="https://img.shields.io/twitter/follow/chairahalkar.svg?style=social" target="_blank" />
-  </a>
+  
 </p>
 
 > A payment system that can be integrated with E-Commerce site. Featured with a secured REST API to seamlessly use it. 
 
-### 🏠 [Homepage](https://github.com/chaitanyarahalkar/transaction-system)
+
 
 ## Prerequisites
 
@@ -45,16 +42,11 @@ If a Gmail account is to be used for sending transaction emails and OTP notifica
 python manage.py runserver
 ```
 
-## Author
 
-👤 **Chaitanya Rahalkar**
-
-* Twitter: [@chairahalkar](https://twitter.com/chairahalkar)
-* Github: [@chaitanyarahalkar](https://github.com/chaitanyarahalkar)
 
 ## 🤝 Contributing
 
-Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/chaitanyarahalkar/transaction-system/issues).
+Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page]
 
 ## Show your support
 
@@ -62,7 +54,7 @@ Give a ⭐️ if this project helped you!
 
 ## 📝 License
 
-Copyright © 2019 [Chaitanya Rahalkar](https://github.com/chaitanyarahalkar).<br />
-This project is [MIT](https://github.com/chaitanyarahalkar/transaction-system/blob/master/LICENSE) licensed.
+Copyright © 2019.<br />
+This project is [MIT]licensed.
 
 ***
